@@ -7,10 +7,49 @@
 .wrapper{
     width: 970px;
     margin:auto;
+    text-align: center;
 }
 
-.red{
+.invisible{
+    display: none;
+}
+
+.success{
+    display: block;
     width:200px;
     height:200px;
-    margin:auto;
+    margin:30px auto;
+    background-color: rgb(48, 47, 47);
+    color:white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    font-size:26px;
+    padding-top:10px;
+}
+
+.success p{
+    margin:20px auto;
+}
+
+.danger{
+    display: block;
+    width:200px;
+    height:200px;
+    line-height: 200px;
+    margin:30px auto;
+    background-color: red;
+    color:white;   
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    font-size:26px;
+}
+
+.play-again{
+    display: block;
+}
+
+.form-control{
+    width:100px;
+    margin:0px auto 20px auto;
+    text-align: center;
 }
